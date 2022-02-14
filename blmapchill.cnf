@@ -1,0 +1,5 @@
+# DDNet++ server config by ChillerDragon
+# https://github.com/DDNetPP/server
+server_name=blmapchill
+post_logs_dir=/var/www/html/blmapchill
+
