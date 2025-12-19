@@ -6,7 +6,7 @@ gitpath_log=/home/chiller/git/TeeworldsLogs
 gitpath_antibot=/home/chiller/git/antibot-insta
 # git_commit=87f8aeab090466fc0c7c72c05011248a8d4964fb
 compiled_teeworlds_name=DDNetPP
-cmake_flags=-DCMAKE_BUILD_TYPE=Debug -DANTIBOT=ON
+cmake_flags=-DCMAKE_BUILD_TYPE=Debug -DANTIBOT=ON -DCLIENT=OFF
 env_build=CXXFLAGS=-pg CFLAGS=-pg LDFLAGS=-rdynamic
 # env_build=CC=clang CXX=clang++ CXXFLAGS="-fsanitize=address,undefined -fsanitize-recover=address,undefined -fno-omit-frame-pointer" CFLAGS="-fsanitize=address,undefined -fsanitize-recover=address,undefined -fno-omit-frame-pointer"
 # env_runtime=UBSAN_OPTIONS=log_path=./SAN:print_stacktrace=1:halt_on_errors=0 ASAN_OPTIONS=log_path=./SAN:print_stacktrace=1:check_initialization_order=1:detect_leaks=1:halt_on_errors=0
